@@ -18,14 +18,12 @@ class ChartContainer extends Component{
     }
 
     render(){
-
         return (
             <div>
                <h2>iTunes Top 20 Chart</h2>
                <ChartList songs={this.state.songs}/>
             </div>
         )
-
     }
 }
 
